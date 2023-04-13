@@ -1,0 +1,13 @@
+<suite name="Amazon test" parallel="tests">
+	<test name="TestNG" allow-return-values="true">
+		<classes>
+			<class name="testLayer.SignInTest" />
+			<class name="testLayer.YourAccountTest" />
+			<class name="testLayer.YourAddressTest" />
+			<class name="testLayer.YourOrders" />
+			<class name="testLayer.PaymentTest" />
+		</classes>
+	</test>
+	
+
+</suite>
